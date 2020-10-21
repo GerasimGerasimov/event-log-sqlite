@@ -1,0 +1,1 @@
+console.log('event-log-sqlite started');
