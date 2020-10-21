@@ -1,22 +1,17 @@
 console.log('event-log-sqlite started');
 import TDAO  from './DAO';
-
-/*
-import TDAO  = require('./DAO');
-//import TDAO  from './DAO';
-/*
 import EventsRepositoty from './EventsRepository';
 
-/*
+
 function main(){
-  const dao: TDAO = new TDAO('./database.sqlite3');
+  const dao: TDAO = new TDAO('./db/database.sqlite3');
   const eventsRepo = new EventsRepositoty(dao);
 
   eventsRepo.createTable();
 }
 
 main()
-*/
+
 
 /*
 const express = require("express")
